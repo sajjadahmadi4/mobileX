@@ -1,4 +1,6 @@
 $header-background-color: #292929;
+$careers-background-color: #303030;
+$footers-background-color: #272727;
 $text-primary-color: #fff;
 $text-secondary-color: #fd8a75;
 $btn-color: #fc6327;
@@ -62,6 +64,105 @@ $btn-hover-color: #fd520f;
 .hero-footer-wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+// careers styling
+.careers {
+    background-color: $careers-background-color;
+
+    .careers-header {
+        display: flex;
+        justify-content: space-between;
+
+        .message-icon {
+            background: $text-secondary-color;
+            border-radius: 50%;
+            padding: 10px 15px;
+        }
+    }
+
+    .title-underline {
+        border: 1px solid $text-secondary-color;
+        width: 7%;
+    }
+
+    .left {
+        width: 60%;
+    }
+
+    .perks {
+        margin-top: 4rem;
+    }
+
+    .perk-icon {
+        padding: 40px 20px;
+        background-color: #292929;
+        border-radius: 30%;
+        border: 1px solid #fff;
+    }
+
+    .perk-card-underline {
+        border: 1px solid $text-secondary-color;
+        width: 10%;
+        margin: 20px auto;
+    }
+}
+
+// possiblities styling
+.possiblities {
+    background-color: $header-background-color;
+
+    .possiblities-card {
+        border: 1px solid #b3b3b3;
+        padding: 20px;
+        background-color: #252525;
+
+        h4 {
+            color: $text-secondary-color;
+        }
+    }
+
+    .active-card {
+        background-color: $text-secondary-color;
+        color: #fff;
+    }
+
+    // ios section
+    .ios-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .apply-btn {
+            border: none;
+            border-radius: 30px;
+            background-color: $careers-background-color;
+            padding: 10px 40px;
+            color: #fff;
+            transition: color .3s;
+        }
+        .apply-btn:hover {
+            color: $text-secondary-color;
+        }
+    }
+
+    .ios-icon {
+        color: $text-secondary-color;
+    }
+}
+
+// footer
+footer {
+    background-color: $footers-background-color;
+
+    .underline {
+        border: 1px solid $text-secondary-color;
+        width: 10%;
+    }
+
+    .footer-left {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 768px) {

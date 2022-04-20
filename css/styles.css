@@ -66,6 +66,97 @@
           justify-content: space-between;
 }
 
+.careers {
+  background-color: #303030;
+}
+.careers .careers-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.careers .careers-header .message-icon {
+  background: #fd8a75;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+.careers .title-underline {
+  border: 1px solid #fd8a75;
+  width: 7%;
+}
+.careers .left {
+  width: 60%;
+}
+.careers .perks {
+  margin-top: 4rem;
+}
+.careers .perk-icon {
+  padding: 40px 20px;
+  background-color: #292929;
+  border-radius: 30%;
+  border: 1px solid #fff;
+}
+.careers .perk-card-underline {
+  border: 1px solid #fd8a75;
+  width: 10%;
+  margin: 20px auto;
+}
+
+.possiblities {
+  background-color: #292929;
+}
+.possiblities .possiblities-card {
+  border: 1px solid #b3b3b3;
+  padding: 20px;
+  background-color: #252525;
+}
+.possiblities .possiblities-card h4 {
+  color: #fd8a75;
+}
+.possiblities .active-card {
+  background-color: #fd8a75;
+  color: #fff;
+}
+.possiblities .ios-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.possiblities .ios-header .apply-btn {
+  border: none;
+  border-radius: 30px;
+  background-color: #303030;
+  padding: 10px 40px;
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.possiblities .ios-header .apply-btn:hover {
+  color: #fd8a75;
+}
+.possiblities .ios-icon {
+  color: #fd8a75;
+}
+
+footer {
+  background-color: #272727;
+}
+footer .underline {
+  border: 1px solid #fd8a75;
+  width: 10%;
+}
+footer .footer-left {
+  width: 60%;
+}
+
 @media only screen and (max-width: 768px) {
   .hero-nav {
     -webkit-box-orient: vertical;
